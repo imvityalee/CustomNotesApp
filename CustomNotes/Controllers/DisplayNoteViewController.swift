@@ -19,6 +19,7 @@ class DisplayNoteViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        textFieldStyle()
         
     }
     
@@ -64,6 +65,10 @@ class DisplayNoteViewController: UIViewController {
         default:
             print("unexpected segue is tapped")
         }
+    }
+    
+    func textFieldStyle() {
+        contetTextView.layer.cornerRadius = 10
     }
     
 }

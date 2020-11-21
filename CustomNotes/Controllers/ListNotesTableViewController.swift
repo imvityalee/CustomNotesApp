@@ -19,8 +19,6 @@ class ListNotesTableViewController: UITableViewController {
     }
     
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         notes = CoreDataHelper.retrieveNote()
